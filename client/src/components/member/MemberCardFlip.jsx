@@ -13,6 +13,7 @@ export default function MemberCardFlip({
     bio = '',
     image = null,
 }) {
+    console.log('MemberCardFlip image:', image);
     const yearLabel = `Year ${year}`;
     const branchShort = branch
         .split(' ')

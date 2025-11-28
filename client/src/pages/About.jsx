@@ -58,8 +58,8 @@ export default function About() {
                                 key={tab.id}
                                 onClick={() => setActiveTab(tab.id)}
                                 className={`px-8 py-3 rounded-xl font-bold text-lg transition-all duration-300 ${activeTab === tab.id
-                                        ? 'bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-lg scale-105'
-                                        : 'bg-slate-800/50 text-slate-400 hover:bg-slate-700/50 hover:text-white'
+                                    ? 'bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-lg scale-105'
+                                    : 'bg-slate-800/50 text-slate-400 hover:bg-slate-700/50 hover:text-white'
                                     }`}
                             >
                                 {tab.label}
@@ -174,9 +174,9 @@ export default function About() {
                                     </div>
 
                                     {/* Members Grid */}
-                                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 justify-items-center">
+                                    <div className="flex flex-wrap justify-center gap-8">
                                         {members.map((member) => (
-                                            <div key={member.id} className="w-full max-w-sm">
+                                            <div key={member.id} className="w-full max-w-sm sm:w-72 lg:w-80">
                                                 <MemberCardFlip {...member} />
                                             </div>
                                         ))}
