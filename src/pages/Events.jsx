@@ -30,7 +30,7 @@ export default function Events() {
   }, [searchQuery, activeCategory, statusFilter]);
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white pt-20">
       {/* Header Section */}
       <section className="bg-gradient-to-br from-primary to-secondary text-white py-16 px-4">
         <div className="max-w-7xl mx-auto">

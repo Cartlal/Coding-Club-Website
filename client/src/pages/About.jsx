@@ -38,7 +38,7 @@ export default function About() {
             </div>
 
             {/* Hero Section */}
-            <section className="relative py-20 px-4">
+            <section className="relative pt-32 pb-20 px-4">
                 <div className="max-w-7xl mx-auto text-center">
                     <h1 className="text-5xl md:text-7xl font-black mb-6 bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 bg-clip-text text-transparent">
                         About Us

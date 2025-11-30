@@ -107,11 +107,7 @@ export default function Home() {
         </div>
 
         <div className="relative max-w-7xl mx-auto text-center">
-          <div className="mb-6 animate-fade-in">
-            <Badge variant="primary" size="lg" className="inline-block">
-              Welcome to Coding Club
-            </Badge>
-          </div>
+          {/* Badge removed per request */}
 
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight animate-slide-up">
             Build, Learn & Grow
